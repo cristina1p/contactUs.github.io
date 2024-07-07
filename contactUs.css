@@ -1,0 +1,92 @@
+body {
+    background-color: rgb(103, 165, 137);
+    font-family: "Nunito";
+    font-optical-sizing: auto;
+    font-weight: normal;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(243, 246, 246)
+}
+
+.container {
+    background-color: rgb(255, 243, 221);
+    padding: 10px;
+    width: 85%;
+    margin: auto;
+    border-radius: 5px;
+}
+
+label {
+    color: rgb(12, 58, 56);
+    font-weight: semibold;
+}
+
+.inputInfo {
+    margin: auto;
+    width: 100%;
+}
+
+input:focus-visible {
+    color: rgb(255, 255, 255);
+}
+
+input[type=text],
+select,
+textarea {
+    font-family: "Nunito";
+    width: 100%;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 12px;
+    resize: vertical;
+}
+
+
+
+input[type=submit] {
+    font-family: "Nunito";
+    background-color: rgb(3, 142, 112);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+    height: 35px;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(53, 86, 79);
+    border: 1px solid rgb(2, 9, 6) font-weight: bold;
+}
+
+#fname,
+#lname {
+    background-color: rgb(163, 239, 214);
+}
+
+#email,
+#pnumber {
+    background-color: rgb(163, 239, 214);
+}
+
+#country,
+#address {
+    background-color: rgb(163, 239, 214);
+}
+
+#subject {
+    background-color: rgb(163, 239, 214);
+
+}
+
+.img {
+    height: 20px;
+    witdh: 30px;
+}
